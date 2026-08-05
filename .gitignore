@@ -7,6 +7,22 @@ wheels/
 *.egg-info
 
 # Virtual environments
-.venv
-/uploads
+.venv/
 .env
+
+# Uploads
+uploads/
+
+# Qdrant vector database
+qdrant_storage/
+
+# Streamlit cache
+.streamlit/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
